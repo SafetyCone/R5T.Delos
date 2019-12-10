@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Delos.Construction", "R5T.Delos.Construction\R5T.Delos.Construction.csproj", "{FCF64965-9BCE-4917-A6C7-1DBB7A51ADDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Delos.Construction", "R5T.Delos.Construction\R5T.Delos.Construction.csproj", "{FCF64965-9BCE-4917-A6C7-1DBB7A51ADDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Delos", "R5T.Delos\R5T.Delos.csproj", "{EAA837F0-5791-4881-BEE8-52D8D85B7AFA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Delos", "R5T.Delos\R5T.Delos.csproj", "{EAA837F0-5791-4881-BEE8-52D8D85B7AFA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Delos.Testing", "R5T.Delos.Testing\R5T.Delos.Testing.csproj", "{A848D49B-E579-4696-865D-9608A6DE3B35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Delos.Testing", "R5T.Delos.Testing\R5T.Delos.Testing.csproj", "{A848D49B-E579-4696-865D-9608A6DE3B35}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{D7313E8C-F4B8-4354-9CF2-FFE7818F53BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Stagira", "..\..\R5T.Stagira\source\R5T.Stagira\R5T.Stagira.csproj", "{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,9 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FCF64965-9BCE-4917-A6C7-1DBB7A51ADDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -58,5 +59,26 @@ Global
 		{A848D49B-E579-4696-865D-9608A6DE3B35}.Release|x64.Build.0 = Release|Any CPU
 		{A848D49B-E579-4696-865D-9608A6DE3B35}.Release|x86.ActiveCfg = Release|Any CPU
 		{A848D49B-E579-4696-865D-9608A6DE3B35}.Release|x86.Build.0 = Release|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Debug|x64.Build.0 = Debug|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Debug|x86.Build.0 = Debug|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Release|x64.ActiveCfg = Release|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Release|x64.Build.0 = Release|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Release|x86.ActiveCfg = Release|Any CPU
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AFDD036D-228C-44AB-9A7F-4FA068AA3AC0} = {D7313E8C-F4B8-4354-9CF2-FFE7818F53BB}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8211005-DA0B-46B4-B6D2-CCBCE5A2C827}
 	EndGlobalSection
 EndGlobal
